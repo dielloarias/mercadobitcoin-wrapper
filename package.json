@@ -1,0 +1,23 @@
+{
+  "name": "mercadobitcoin-wrapper",
+  "version": "1.0.0",
+  "description": "Wrapper para chamadas de API do Mercado Bitcoin",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "Bitcoin",
+    "MercadoBitcoin",
+    "Crypto-coins",
+    "Exchange"
+  ],
+  "author": {
+    "name": "Diello Cardoso de La Paz Arias",
+    "email": "dielloarias@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "restify-clients": "2.6.4"
+  }
+}
