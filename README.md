@@ -32,6 +32,7 @@ wrapper.trades("BTC", callback);
 
 Please refer to **sample-call.js** file for information on how to use mercadobitcoin-wrapper.
 
-##If you want to donate
+##If you want to donate##
+
 ***bitcoin:*** 16jGqLTmyxfLiSqJUkiEuPfzzyBN1Yms9v
 ***litecoin:*** LUBeZA2y2eJaYPC5bAt2x5oLbPPscTEs2T
