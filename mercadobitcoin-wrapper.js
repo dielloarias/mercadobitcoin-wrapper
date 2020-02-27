@@ -39,6 +39,8 @@ MercadoBitcoin.prototype = {
     }
 }
 
-module.exports = function() {
-    return MercadoBitcoin;
-}
+// module.exports = function() {
+//     return MercadoBitcoin;
+// }
+
+module.exports = MercadoBitcoin

@@ -18,6 +18,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "restify-clients": "2.6.4"
+    "restify-clients": "^2.6.4"
   }
 }

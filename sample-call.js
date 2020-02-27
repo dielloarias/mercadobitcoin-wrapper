@@ -1,12 +1,12 @@
 // Import mercadobitcoin-wrapper module.
-let mercadobitcoinWrapper = require("./mercadobitcoin-wrapper")();
+const MercadobitcoinWrapper = require("./mercadobitcoin-wrapper");
 
 // Instantiate a new Object
-let wrapper = new mercadobitcoinWrapper();
+const wrapper = new MercadobitcoinWrapper();
 
 // Callback to be provided as result handler
 // (please refer to restify-clients get() documentation)
-let callback = function (err, req, res, obj) {
+const callback = function (err, req, res, obj) {
     if (err) {
         console.log(err)
         return
