@@ -12,6 +12,7 @@
     "Crypto-coins",
     "Exchange"
   ],
+  "main": "MercBitWrapper.js",
   "author": {
     "name": "Diello Cardoso de La Paz Arias",
     "email": "dielloarias@gmail.com"

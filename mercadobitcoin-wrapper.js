@@ -1,7 +1,7 @@
-let restify = require("restify-clients");
+const restify = require("restify-clients");
 
 // 
-let BASE_URL = "https://www.mercadobitcoin.net"
+const BASE_URL = "https://www.mercadobitcoin.net"
 let MercadoBitcoin = function(){
     this._client = restify.createJSONClient({
         url: BASE_URL
@@ -34,7 +34,7 @@ MercadoBitcoin.prototype = {
     },
     
     _call: function(method, currency, callback){
-        let url = "/api/" + currency + "/" + method + "/";
+        const url = "/api/" + currency + "/" + method + "/";
         this._client.get(url, callback);
     }
 }
